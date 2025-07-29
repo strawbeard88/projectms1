@@ -105,6 +105,45 @@ body {
 
 /* Main content */
 
+/* intro section */
+.intro-pmcbygg {
+  padding: 4rem 2rem;
+  background-color: #fff;
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.intro-bild img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.intro-text {
+  text-align: center;
+}
+
+.intro-text h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.intro-text p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+  text-align: center;
+}
+
 .services,
 .about,
 .contact {
