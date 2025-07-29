@@ -1,0 +1,33 @@
+
+
+/* Header */
+.header {
+  background-color: #55b6b3;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.logo-img {
+  height: 100px;
+  width: 160px;
+  display: block;
+}
