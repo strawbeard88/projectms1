@@ -186,12 +186,12 @@ body {
 }
 
 
-.tjanst-knapp-wrapper {
+.services-button-wrapper {
   text-align: center;
   margin-top: 2rem;
 }
 
-.tjanst-knapp {
+.services-button {
   background-color: #55b6b3;
   color: white;
   text-decoration: none;
@@ -203,7 +203,7 @@ body {
   display: inline-block;
 }
 
-.tjanst-knapp:hover {
+.services-button:hover {
   background-color: #449f9c;
 }
 
@@ -211,6 +211,22 @@ body {
   background-color: #e5f6f5;
   transform: translateY(-3px);
   transition: all 0.2s;
+}
+
+.services-button {
+  background-color: #55b6b3;
+  color: white;
+  text-decoration: none;
+  padding: 0.75rem 2rem;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.2s ease-in-out;
+  display: inline-block;
+}
+
+.services-button:hover {
+  background-color: #449f9c;
 }
 
 /* Contact page */
