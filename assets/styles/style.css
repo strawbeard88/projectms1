@@ -40,6 +40,25 @@ body {
   display: block;
 }
 
+/* Hero Section */
+/* text shadow for hero section for better readability */
+.hero-content h1,
+.hero-content p {
+  text-shadow: 0 1px 3px rgba(0,0,0,0.4);
+}
+
+/* Hero Section media querrys for responsivness */
+@media (max-width: 768px) {
+  .hero {
+    height: auto;
+    padding: 3rem 1.5rem;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    text-align: center;
+  }
+}
 
 /* Main content */
 
