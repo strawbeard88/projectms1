@@ -27,6 +27,7 @@
     <a href="contact.html">Contact Us</a>
   </nav>
 </header>   
+<main>
 
 <section class="contactperson">
   <h2>Who to contact</h2>
@@ -45,7 +46,30 @@
     </div>
   </div>
 </section>
-    
+<section class="kontakt">
+  <h1>Contact us</h1>
+  <p>If you have any questions or just want to get in contact with us. Fill out the form and we get back to you!</p>
+
+<form action="https://formsubmit.co/info@pmcbygg.se" method="POST" class="kontakt-form">
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://pmcbygg.web.upirate.se/tack.html">
+
+  <label for="namn">Your Name</label>
+  <input type="text" id="namn" name="namn" required />
+
+  <label for="email">Your E-mail</label>
+  <input type="email" id="email" name="email" required />
+
+  <label for="telefon">Phone number</label>
+  <input type="tel" id="telefon" name="telefon" required />
+
+  <label for="meddelande">Your message</label>
+  <textarea id="meddelande" name="meddelande" rows="6" required></textarea>
+
+  <button type="submit">Send</button>
+</form>
+</section>
+</main>
     
 </body>
 </html>
