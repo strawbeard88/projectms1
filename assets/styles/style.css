@@ -168,3 +168,9 @@ body {
 }
 
 /* Footer */
+.footer {
+  background-color: #55b6b3;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
