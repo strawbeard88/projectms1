@@ -132,10 +132,11 @@ body {
 }
 
 /* Services page */
+
 .services-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  row-gap: 2.5rem;     /* 🆕 lodrätt mellanrum */
+  row-gap: 2.5rem;    
   column-gap: 2rem;
   list-style: none;
   padding: 0;
