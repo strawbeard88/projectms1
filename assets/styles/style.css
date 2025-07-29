@@ -185,32 +185,15 @@ body {
   line-height: 1.6;
 }
 
-
-.services-button-wrapper {
-  text-align: center;
-  margin-top: 2rem;
-}
-
-.services-button {
-  background-color: #55b6b3;
-  color: white;
-  text-decoration: none;
-  padding: 0.75rem 2rem;
-  border-radius: 4px;
-  font-weight: bold;
-  font-size: 1rem;
-  transition: background-color 0.2s ease-in-out;
-  display: inline-block;
-}
-
-.services-button:hover {
-  background-color: #449f9c;
-}
-
 .services-list li:hover {
   background-color: #e5f6f5;
   transform: translateY(-3px);
   transition: all 0.2s;
+}
+
+.services-button-wrapper {
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .services-button {
