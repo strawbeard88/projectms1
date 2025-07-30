@@ -90,18 +90,6 @@ body {
   margin: 0.5rem 0;
 }
 
-/* Hero Section media querrys for responsivness */
-@media (max-width: 768px) {
-  .hero {
-    height: auto;
-    padding: 3rem 1.5rem;
-  }
-
-  .hero-content {
-    max-width: 100%;
-    text-align: center;
-  }
-}
 
 /* Main content */
 
