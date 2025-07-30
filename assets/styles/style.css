@@ -443,7 +443,6 @@ body {
     text-align: center;
   }
 
-  @media (max-width: 768px) {
   .intro-grid {
     grid-template-columns: 1fr;
     text-align: center;
@@ -452,5 +451,18 @@ body {
   .intro-bild img {
     max-width: 400px;
     margin: 0 auto;
+  }
+
+    .services-list {
+    grid-template-columns: 1fr;
+  }
+
+  .services-list li {
+    min-height: auto;
+  }
+
+  .services-list.rad1,
+  .services-list.rad2 {
+    grid-template-columns: 1fr;
   }
 }
