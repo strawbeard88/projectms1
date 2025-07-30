@@ -398,7 +398,13 @@ body {
   padding: 1rem;
 }
 
-
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 2px solid #55b6b3;
+  outline-offset: 2px;
+}
 
 /* Responsive Design */
 
