@@ -51,7 +51,7 @@ body {
 /* Hero Section main content and picture */
 
 .hero {
-  background: url('../images/bilutanperson.webp') center/cover no-repeat;
+ /* background: url('../images/bilutanperson.webp') center/cover no-repeat; */
   color: white;
   padding: 0 2rem;
   position: relative;
