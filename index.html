@@ -20,7 +20,9 @@
     <link rel="preload" as="image" href="assets/images/bild1-desktop.webp" type="image/webp" media="(min-width: 769px)">
     <!-- Preload hero image -->
     <link rel="preload" as="image" href="assets/images/bilutanperson-optimized.webp" type="image/webp">
-</head>
+    <link rel="preload" as="image" href="assets/images/hero-mobile.webp" type="image/webp" media="(max-width: 768px)">
+    <link rel="preload" as="image" href="assets/images/hero-desktop.webp" type="image/webp" media="(min-width: 769px)">
+  </head>
 <body>
 <header class="header">
   <div class="logo">
@@ -39,12 +41,13 @@
   <!-- Hero-section -->
   <section class="hero">
     <picture>
-      <source srcset="assets/images/bilutanperson-optimized.webp" type="image/webp">
-      <img src="assets/images/bilutanperson-optimized.jpg"
+      <source srcset="assets/images/hero-mobile.webp" media="(max-width: 768px)" type="image/webp">
+      <source srcset="assets/images/hero-desktop.webp" media="(min-width: 769px)" type="image/webp">
+      <img src="assets/images/hero-desktop.webp"
           alt="PMC Bygg"
           class="hero-img"
-          width="1600"
-          height="450"
+          width="1920"
+          height="600"
           fetchpriority="high"
           decoding="async">
     </picture>
