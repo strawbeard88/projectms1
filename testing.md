@@ -79,6 +79,8 @@ The site was tested on multiple devices and screen sizes to ensure correct layou
 - Used the W3C CSS Validation Service.
 - No critical CSS validation errors found.
 
+### Lighthouse testing
+- Good results with lighthouse testing also
 ---
 
 ## Browser Compatibility
