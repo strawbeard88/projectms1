@@ -52,27 +52,49 @@ body {
 
 .hero {
   position: relative;
-  height: auto; 
+  width: 100%;
+  height: 300px; /* Mobile height */
   overflow: hidden;
+}
+
+@media (min-width: 769px) {
+  .hero {
+    height: 450px; /* Desktop height */
+  }
 }
 
 .hero picture,
 .hero img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: auto;
-  object-fit: cover;
-  object-position: center; 
+  height: 100%;
+  object-fit: cover;       /* Makes image fill the hero container */
+  object-position: center; /* Keeps the main subject centered */
   display: block;
 }
 
 .hero-content {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+  position: relative;
+  z-index: 2; /* On top of image */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Push text to bottom */
   padding: 1.5rem;
-  max-width: 90%;
+  background: rgba(0,0,0,0.35); /* Transparent overlay for readability */
   color: white;
+  max-width: 100%;
   text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+}
+
+.hero-content h1 {
+  margin: 0 0 0.5rem 0;
+}
+
+.hero-content p {
+  margin: 0;
 }
 
 .hero::after {

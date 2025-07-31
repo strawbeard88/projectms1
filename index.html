@@ -42,14 +42,10 @@
   <section class="hero">
     <picture>
       <source srcset="assets/images/hero-mobile.webp" media="(max-width: 768px)" type="image/webp">
+      <source srcset="assets/images/hero-mobile.jpg" media="(max-width: 768px)" type="image/jpeg">
       <source srcset="assets/images/hero-desktop.webp" media="(min-width: 769px)" type="image/webp">
-      <img src="assets/images/hero-desktop.webp"
-          alt="PMC Bygg"
-          class="hero-img"
-          width="1920"
-          height="600"
-          fetchpriority="high"
-          decoding="async">
+      <source srcset="assets/images/hero-desktop.jpg" media="(min-width: 769px)" type="image/jpeg">
+      <img src="assets/images/hero-desktop.jpg" alt="PMC Bygg" class="hero-img" fetchpriority="high">
     </picture>
     <div class="hero-content">
       <h1>Welcome to  PMCBYGG</h1>
