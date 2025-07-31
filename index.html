@@ -14,7 +14,12 @@
     <link rel="stylesheet" href="assets/styles/style.css" />
     <!-- Preload for pictures -->
     <link rel="preload" as="image" href="assets/images/bilutanperson-optimized.webp" type="image/webp">
+    <!-- Preload LCP-bild for mobile -->
     <link rel="preload" as="image" href="assets/images/bild1-mobile.webp" type="image/webp" media="(max-width: 768px)">
+    <!-- Preload LCP-bild for desktop -->
+    <link rel="preload" as="image" href="assets/images/bild1-desktop.webp" type="image/webp" media="(min-width: 769px)">
+    <!-- Preload hero image -->
+    <link rel="preload" as="image" href="assets/images/bilutanperson-optimized.webp" type="image/webp">
 </head>
 <body>
 <header class="header">
@@ -56,7 +61,23 @@ We work closely with our clients, with pride, precision, and an eye for detail â
   <div class="intro-grid">
     <div class="intro-bild">
       <!-- This picture is done with AI "Chat GPT"-->
-      <img src="assets/images/bild1.webp" alt="PMCBYGG i arbete">
+      <picture>
+        <!-- Mobile version -->
+        <source srcset="assets/images/bild1-mobile.webp" media="(max-width: 768px)" type="image/webp">
+        <source srcset="assets/images/bild1-mobile.jpg" media="(max-width: 768px)" type="image/jpeg">
+        
+        <!-- Desktop version -->
+        <source srcset="assets/images/bild1-desktop.webp" type="image/webp">
+        <source srcset="assets/images/bild1-desktop.jpg" type="image/jpeg">
+        
+        <!-- Fallback -->
+        <img src="assets/images/bild1-desktop.jpg"
+            alt="PMCBYGG i arbete"
+            width="550"
+            height="550"
+            fetchpriority="high"
+            decoding="async">
+      </picture>
     </div>
     <div class="intro-text">
       <h2>We build with quality, care, and reliability.</h2>
