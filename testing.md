@@ -54,6 +54,12 @@ The site was tested on multiple devices and screen sizes to ensure correct layou
 
 ---
 
+## Lighthouse Testing
+
+**Front page:**
+
+[Frontpage Results](assets\images\readme img\frontpage-lighthouse-testing.jpg)
+
 ## Accessibility Testing
 
 ### Keyboard Navigation
