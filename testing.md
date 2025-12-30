@@ -58,7 +58,7 @@ The site was tested on multiple devices and screen sizes to ensure correct layou
 
 **Front page:**
 
-![image](\assets\images\readme img\frontpage-lighthouse-testing.jpg)
+<img src="assets\images\readme img\frontpage-lighthouse-testing.jpg" >
 
 ## Accessibility Testing
 
