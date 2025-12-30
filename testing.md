@@ -71,6 +71,8 @@ The site was tested on multiple devices and screen sizes to ensure correct layou
 **Services:**
 
 <img src="assets\images\readme img\services-lighthouse-testing.jpg" >
+<img src="assets\images\readme img\services2-lighthouse-testing.jpg" >
+
 
 ## Accessibility Testing
 
