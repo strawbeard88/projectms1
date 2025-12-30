@@ -68,6 +68,10 @@ The site was tested on multiple devices and screen sizes to ensure correct layou
 
 <img src="assets\images\readme img\frontpage-lighthouse-testing.jpg" >
 
+**Services:**
+
+<img src="assets\images\readme img\services-lighthouse-testing.jpg" >
+
 ## Accessibility Testing
 
 ### Keyboard Navigation
