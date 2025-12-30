@@ -7,6 +7,14 @@ Testing included manual checks, validation of HTML and CSS, responsiveness asses
 
 ---
 
+## Wireframes
+
+During this project i did not really use any wireframe, it is a page done for a customer that was sitting beside me when we did the graphics. He did not know how he wanted it before he did see it. 
+Also a good point to declare here is that this page is done with a contrast of colors that is not the same as the live product. The logo in the header section is not the same either. It is just a higher contrast of all this so it will meet a pass criteria on External webpage [WebAIM](https://webaim.org/resources/contrastchecker/)
+
+
+---
+
 ## Manual Testing
 
 ### Navigation
