@@ -72,7 +72,7 @@ The site was tested on multiple devices and screen sizes to ensure correct layou
 
 <img src="assets\images\readme img\services-lighthouse-testing.jpg" >
 <img src="assets\images\readme img\services2-lighthouse-testing.jpg" >
-
+I do know that i should have used a better format for images like webp in logo. CBA tbh in this project to change it. 
 
 ## Accessibility Testing
 
